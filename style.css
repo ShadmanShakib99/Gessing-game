@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/* reset conde starts */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 400;
+}
+
+/* reset conde ends */
+body{
+    background-image: url('photo/pexels-cats-coming-707582.jpg');
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+    align-items: center;
+
+}
+
+.card{
+    width: 32rem;
+    height: 20rem;
+    background-color: rgb(4, 96, 149);
+    border-radius: 0.6rem;
+    color: black;
+    padding: 1rem;
+    box-shadow: 0.1rem 0.2rem 0.1rem #222, -0.1rem 0 0.1rem #222;
+    font-size: 1.2rem;
+
+}
+
+.card:hover{
+    box-shadow: 0.2rem 0.3rem 0.2rem #222, -0.1rem 0 0.5rem #222;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.card-title{
+    text-align: center;
+    color: #d2a5c8;
+    margin-bottom: 1rem;
+}
+
+.form-field{
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 20px;
+}
+
+input{
+    border: none;
+    border: 0.1rem solid;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    background-color: rgb(13, 203, 250);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 50%;
+
+}
+
+.btn{
+    border: none;
+    border: 0.1rem solid;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    background-color: rgb(13, 203, 250);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1rem;
+    
+}
+
+.btn:hover{
+    background-color: white;
+    color: #000;
+    border-radius: 0.4rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0.2rem 1rem 0rem;
+}
+
+p {
+    text-align: center;
+    color: rgb(13, 241, 245);
+  }
+  
+  .large-text {
+    font-size: 1.5rem;
+    color: bisque;
+  }
